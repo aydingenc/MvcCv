@@ -1,0 +1,15 @@
+﻿@using MvcCv.Models.Entity
+@model List<tbl_SosyalMedya>
+<ul class="list-inline list-social-icons mb-0">
+    @foreach (var x in Model)
+    {
+        <li class="list-inline-item">
+            <a href="@x.Link">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="@x.ikon"></i>
+                </span>
+            </a>
+        </li>
+    }
+</ul>

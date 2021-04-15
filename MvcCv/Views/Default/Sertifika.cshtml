@@ -1,0 +1,18 @@
+﻿@using MvcCv.Models.Entity;  @*Veritabanı tablolarım hangi klasörde*@ 
+@model List<Sertifikalar>    
+    @*Hangi tablom üzerinde listeleme yapacagım*@
+<div class="my-auto">
+    <h2 class="mb-5">Awards &amp; Certifications</h2>
+    @*modelin üzerine gelince nerede dönecegini söylüyor*@
+    @foreach (var x in Model)
+    {
+        <ul class="fa-ul mb-0">
+            <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                @x.Sertifikalarım
+            </li>
+        </ul>
+    }
+
+</div>
+
