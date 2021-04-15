@@ -1,2 +1,2 @@
 # MvcCv
-Asp.Net mvc ile DinamikCv sitesi
+Asp.Net mvc ile admin panelli DinamikCv sitesi
